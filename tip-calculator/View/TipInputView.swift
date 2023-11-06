@@ -130,6 +130,7 @@ class TipInputView: UIView {
                 textField.placeholder = "Make it generous!"
                 textField.keyboardType = .numberPad
                 textField.autocapitalizationType = .none
+                textField.accessibilityIdentifier = ScreenIdentifier.TipInputView.customTipAlertTextView.rawValue
             }
             let cancelAction = UIAlertAction(
                 title: "cancel",
